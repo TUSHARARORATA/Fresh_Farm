@@ -1,0 +1,54 @@
+html,body{margin:0;overflow-x: hidden;}
+.name{text-decoration: none; color:#fff;}
+.ff{background-color: rgba(0,0,0,0.4);border-radius: 15px;width: 25%;padding:0.5% 0 0.5% 1.5%;padding-right: 5%;}
+.fe{background-color: rgba(0,0,0,0.4);border-radius: 15px;width: 25%;padding:0.5% 0 0.5% 1.5%;padding-right: 5%;font-size: large;}
+.hbg{height:100%;width:100%;position:absolute;}
+.oph{background-color: rgba(0,0,0,0.4);width: 100%;height:100%;position:absolute;z-index:1;float:left;padding: 14px 20px;color:#fff;}
+.navbar { width: 50%; border-radius:15px;overflow:hidden; background-color: rgba(0,0,0,0.4);margin-top: -5%;margin-left: 62%; }
+.navbar a {float: left; font-size: 16px; color:black; text-align: center; padding: 14px 16px; text-decoration: none; }
+.dropdown { float: left; overflow: hidden;}
+.dropdown .dropbtn {font-size: 16px;border: none; outline: none; color: white; padding: 10px 16px; background-color:inherit; font-family: inherit;margin: 0;}
+.navbar a:hover, .dropdown:hover .dropbtn { background-color: aquamarine;font-size:17px; border-radius:15px; color:#000; }
+.dropdown-content { display: none; position: absolute; background-color: rgba(255,255,255,0.700); border-radius:15px; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,1.0); z-index: 1; }
+.dropdown-content a { float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left; }
+.dropdown-content a:hover { background-color: aquamarine; }
+.dropdown:hover .dropdown-content { display: block; }
+.grs{margin-left:-2%; width:100%;background-color:#fff; padding:3% 1% 11% 1%;color:tomato;}
+.big{font-size: xx-large;color: #000;}
+.small{font-size:smaller;color: #000;}
+.gr{float:left;width:25%;}
+.mid{padding: 10% 5% 11% 5%;}
+.mid h1{ font-size: 300%; font-weight: bolder;}
+.cu{font-size: large;color: white; text-decoration: none; border:solid blue; padding: 1%;border-radius: 50px;}
+.cu:hover{background-color: whitesmoke; padding:1.5%;border-color:solid blue; color:blue;}
+.bb{position: absolute; margin-top:60%;}
+.bc{position: relative;}
+.footer{position: absolute; margin-top:90%;background-color: rgb(239, 251, 251);margin-left:0;width:100%;padding-left:5%;}
+.footerr{position: absolute; margin-top:5%;background-color: rgb(239, 251, 251);margin-left:-15;width:100%;padding-left:5%;}
+.icon{font-size: xx-large;color:#000;}
+.ch{text-decoration:none;cursor:pointer;background-color:rgb(2, 234, 255);padding:1%;border:solid rgb(2, 234, 255); border-radius:5px;color:#fff;}
+.ch:hover{background-color: rgb(0, 136, 255);color:white;border:solid rgb(0, 136, 255);}
+.gray{color: gray;}
+.fh4{font-weight: bold; text-decoration:none;}
+.sym{font-size:x-large; color:chartreuse;}
+table {border-spacing: 50px;}
+.fas{font-size: xx-large;font-weight: bolder;color: #000;}
+.cr{position: absolute;margin-top:105%;background-color: rgb(0, 136, 255);color: #fff; text-align: center;width:100%;padding:2%;}
+.crclr{position: absolute;margin-top: 17.5%;background-color: rgb(0, 136, 255);color: #fff; text-align: center;width:100%;padding:2%;margin-right: 10%;}
+.frclr{position: absolute;margin-top: 17.5%;background-color: rgb(0, 136, 255);color: #fff; text-align: center;width:100%;padding:2%;margin-right: 10%;}
+.column {float: left;width: 45%;padding: 0 10px;}
+.col2 {float: left;width: 30%;padding: 0 10px;color: #000;}
+.col2 h2{color:#000;}
+.row {width:100%; margin-left: 2%;}
+.row:after {content: "";display: table;clear: both;}
+@media screen and (max-width: 600px) {.column {width: 100%;display: block;margin-bottom: 20px;}}
+.card {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); padding: 16px 16px 40px 16px;text-align: center;background-color: #fff;}
+.car { padding: 16px; text-align: center; background-color: inherit;}
+.kg{width:50%;padding:2%;}
+.ac{text-decoration:none;cursor:pointer;background-color:rgb(2, 234, 255);padding:5% 10% 5% 10%;border:solid rgb(2, 234, 255); border-radius:5px;color:#fff;}
+.ac:hover{background-color: rgb(0, 136, 255);color:white;border:solid rgb(0, 136, 255);}
+.pcard {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);width:250px;height:250px;text-align: center;font-family: arial;}
+.price {color: grey;font-size: 22px;width:100%;}
+.pcard button {border: none;outline: 0;padding: 12px;color: white;background-color: #000;text-align: center;cursor: pointer;width: 100%;font-size: 18px;}
+.pcard button:hover {opacity: 0.7;}
+.pcard img{height: 250px;width: 250px;}
